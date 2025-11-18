@@ -217,7 +217,7 @@ def new(ctx):
     )
 
     messages = [config.INIT_SYSTEM_MESSAGE]
-    chat_manager.welcome_message(messages + [config.INIT_WELCOME_MESSAGE])    
+    chat_manager.welcome_message(messages + [config.INIT_WELCOME_MESSAGE])
     chat_manager.messages = messages
     chat_manager.chat_loop()
 
